@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/music-notes-app/static/css/main.07619af3.css",
+    "main.js": "/music-notes-app/static/js/main.e98e9aa0.js",
+    "static/js/787.9638c77b.chunk.js": "/music-notes-app/static/js/787.9638c77b.chunk.js",
+    "index.html": "/music-notes-app/index.html",
+    "main.07619af3.css.map": "/music-notes-app/static/css/main.07619af3.css.map",
+    "main.e98e9aa0.js.map": "/music-notes-app/static/js/main.e98e9aa0.js.map",
+    "787.9638c77b.chunk.js.map": "/music-notes-app/static/js/787.9638c77b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07619af3.css",
+    "static/js/main.e98e9aa0.js"
+  ]
+}
