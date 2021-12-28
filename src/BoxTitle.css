@@ -1,0 +1,36 @@
+
+.BoxTitle-item {
+    display: grid;
+    grid-template-columns: 6fr repeat(3, 1fr);
+    gap: 10px;
+    border: 1px solid white;
+    padding: 12px;
+    font-size: 1.7vw;
+    text-transform: capitalize;
+    background-color: #ecf0f1;
+}
+
+.BoxTitle-item:hover {
+    background-color: rgb(236, 240, 241, .9);
+}
+
+.BoxTitle-item button {
+    font-size: 1.2vw;
+    padding: 6px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.BoxTitle-item button:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+.BoxTitle-item button:nth-child(3) {
+    background-color: #000000;
+}
+
+.BoxTitle-item button:nth-child(4) {
+    background-color: #27ae60;
+}

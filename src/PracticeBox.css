@@ -1,0 +1,80 @@
+
+.PracticeBox  {
+    height: 100vh;
+    width: 100vw;
+    background-color: #27ae60;
+    color: #fff;
+}  
+
+.PracticeBox-title {
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.PracticeBox-current-note {
+    font-size: 6vw;
+}
+
+.PracticeBox-buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.PracticeBox-home,
+.PracticeBox-generate-note,
+.PracticeBox-clear-notes {
+    position: fixed;
+    display: block;
+    background-color: #000;
+    width: 100%;
+    padding: 12px 0px;
+    border: none;
+    outline: 0;
+    font-size: 1.7vw;
+    background-color: #1E1E1E;
+    transition: all .3s ease;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.PracticeBox-home:hover,
+.PracticeBox-generate-note:hover,
+.PracticeBox-clear-notes:hover {
+    background-color: #000;
+}
+
+.PracticeBox-generate-note,
+.PracticeBox-clear-notes {
+    position: static;
+    width: 30%;
+    text-transform:capitalize;
+    border-radius: 3px;
+}
+
+.PracticeBox-container {
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px 0px;
+}
+
+section {
+    padding: 25px;
+    height: 100px;
+    width: 65%;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+
+
+
+
+
+
+  

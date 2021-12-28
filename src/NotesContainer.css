@@ -1,0 +1,7 @@
+.NotesContainer  {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 5vw;
+    grid-row-gap: 3vw;
+    font-size: 25px;
+}

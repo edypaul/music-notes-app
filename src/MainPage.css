@@ -1,0 +1,42 @@
+.MainPage {
+    width: 60vw;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2980b9;
+    padding: 50px;
+    border-radius: 15px;
+    min-height: 450px;
+}
+
+.MainPage-title h1 {
+    font-size: 4vw;
+    color: #ffffff;
+    font-weight: bold;  
+    font-style: oblique;
+}
+
+.MainPage-title h2 {
+    font-size: 2vw;
+    color: #ffffff;
+    text-align: right;
+}
+
+.MainPage-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.MainPage-box-list ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+
+

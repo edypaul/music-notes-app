@@ -1,0 +1,12 @@
+.NewPracticeBoxForm input {
+    padding: 10px;
+    font-size: 1.7vw;
+    outline: none;
+    border: none;
+}
+
+.NewPracticeBoxForm input[type="submit"] {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
